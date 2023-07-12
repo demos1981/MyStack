@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.header-items{
+    @apply inline-block ml-2 py-3 px-2 text-red-300 font-semibold border-b-2 border-transparent  hover:text-red-950 hover:border-red-950;
+}
+.breadcrumbs-links{
+    @apply text-slate-50  border-b-2 border-transparent hover:text-red-300 hover:border-red-300;
+}
+.section-skills{
+    @apply flex z-10 mt-2 w-full h-80 text-center text-red-300 text-8xl border-2 items-center justify-center hover:text-red-950 opacity-0 hover:transition-opacity hover:opacity-80 hover:shadow-2xl hover:shadow-red-300/40;
+}
