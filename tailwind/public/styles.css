@@ -575,8 +575,17 @@ video {
   white-space: nowrap;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border-red-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(69 10 10 / var(--tw-border-opacity));
 }
 
 .bg-red-950 {
@@ -674,6 +683,7 @@ video {
   width: 100%;
   align-items: center;
   justify-content: center;
+  border-radius: 0.5rem;
   border-width: 2px;
   text-align: center;
   font-size: 6rem;
@@ -681,9 +691,15 @@ video {
   --tw-text-opacity: 1;
   color: rgb(252 165 165 / var(--tw-text-opacity));
   opacity: 0;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 100ms;
+  transition-duration: 1000ms;
 }
 
 .section-skills:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(69 10 10 / var(--tw-border-opacity));
   --tw-text-opacity: 1;
   color: rgb(69 10 10 / var(--tw-text-opacity));
   opacity: 0.8;
@@ -692,9 +708,49 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: rgb(252 165 165 / 0.4);
   --tw-shadow: var(--tw-shadow-colored);
-  transition-property: opacity;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 640px) {
+    .\32xl\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .\32xl\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .\32xl\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .\32xl\:container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .\32xl\:container {
+      max-width: 1536px;
+    }
+  }
+}
+
+.hover\:border-red-950:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(69 10 10 / var(--tw-border-opacity));
 }
 
 .hover\:text-red-300:hover {
@@ -705,4 +761,11 @@ video {
 .hover\:text-red-950:hover {
   --tw-text-opacity: 1;
   color: rgb(69 10 10 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
