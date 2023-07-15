@@ -6,65 +6,46 @@
     <link rel="stylesheet" href="/tailwind/public/styles.css">
     <title>Tailwind</title>
 </head>
-<body class="bg-white">
-    <div class=" 2xl:container 2xl:mx-auto">
-
+<body class="bg-white box-border ">
+ 
+<div class="container  h-screen grid grid-rows-[auto_1fr_auto] bg-gradient-to-r from-sky-700 to-indigo-200">
     <!-- header -->
-    <header class="flex mt-10 pb-20 border-2 items-center justify-between rounded-lg border-red-950">
-        <a class="uppercase text-3xl font-semibold text-red-300 hover:text-red-950 px-2" href="#">
-            Technology stack</a>
-        <nav class="flex items-center ">
-            <ul class="inline-flex items-center">
-                <li><a class="header-items" href="#">Home</a></li>
-                <li><a class="header-items" href="#">About</a></li>
-                <li><a class="header-items" href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <!-- breadcrumbs(хлебные крошки) -->
-      <div class="px-2 flex items-center  bg-red-950 rounded-lg">
-        <div class="py-4 overflow-y-auto whitespace-nowrap flex font-semibold">
-            <a class="breadcrumbs-links" href="#">
-                <svg fill="none" stroke="currentColor" class="h-5 w-5" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
-                  </svg>
-            </a>
-            <span class="mx-2 text-gray-500 "><svg fill="none" class="h-5 w-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-              </svg></span>
-            <a class="breadcrumbs-links" href="#">News</a>
-            <span class="mx-2 text-gray-500"><svg fill="none" class="h-5 w-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-              </svg></span>
-            <a class="breadcrumbs-links"" href="#">Tech</a>
-            <span class="mx-2 text-gray-500"><svg fill="none" class="h-5 w-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-              </svg></span>
-        </div>
-      </div >
-      <div >
-      <section class="section-skills">HTML/5</section>
-      <section class="section-skills">CSS/3</section>
-      <section class="section-skills">SCSS</section>
-      <section class="section-skills">TAILWIND</section>
-      <section class="section-skills">JAVASCRIPT</section>
-      <section class="section-skills">REACT.JS/REDUX</section>
-      <section class="section-skills">NEXT.JS</section>
-    </div>
-    </main>
+            <header class="flex  h-20  items-center justify-between rounded-lg bg-red-950 pr-4">
+                <a class="uppercase text-3xl ml-20 font-semibold text-red-50 hover:text-red-300 px-2" href="#">
+                    Technology stack</a>
+                <nav class="flex items-center ">
+                    <ul class="inline-flex items-center">
+                        <li><a class="header-items" href="#">Home</a></li>
+                        <li><a class="header-items" href="#">About</a></li>
+                        <li><a class="header-items" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+         <main class="flex justify-between mb-10 items-center">
+                <!-- stack -->
+        
+        
+            <div class="section-skills ">HTML/5</div>
+            <div class="section-skills ">CSS/3</div>
+            <div class="section-skills ">SCSS</div>
+            <div class="section-skills ">TAILWIND</div>
+            <div class="section-skills ">JAVASCRIPT</div>
+            <div class="section-skills ">REACT.JS/REDUX</div>
+            <div class="section-skills ">NEXT.JS</div>
+        
+         </main>
     <!-- footer -->
-    <footer>
-        <div class="flex justify-between items-center h-14 bg-red-950">
-           
-                <h6 class="ml-4 text-gray-50 hover:text-red-300">MySkills</h6>
+            <footer class="flex  h-20 justify-between items-center bg-red-950 rounded-lg">
+            
                 
-             
-                <span class="mr-4 text-gray-50 hover:text-red-300" href="#">@ Copyright by Yaremenko Dmitriy</span>
-               
-          
-        </div>
-    </footer>
+                        <span class="ml-4 text-gray-50 hover:text-red-300">MySkills</span>
+                        
+                    
+                        <span class="mr-4 text-gray-50 hover:text-red-300" href="#">@ Copyright by Yaremenko Dmitriy</span>
+                    
+                
+                
+            </footer>
 </div>
 </body>
 </html>
