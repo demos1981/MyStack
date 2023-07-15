@@ -6,6 +6,9 @@ module.exports = {
     container:{
       center:true,
     },
+    backgroundImage:{
+      'picture1':"url('/tailwind/public/img/pic1.jpg')",
+    },
     borderRadius:{
       'none':'0',
       'sm':'0.12rem',

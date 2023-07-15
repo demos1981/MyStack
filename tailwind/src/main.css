@@ -14,6 +14,7 @@
     text-center 
     h-44
     w-44
+    mr-5
     p-10
     text-xl 
     border-2 
@@ -30,6 +31,6 @@
     shadow-2xl 
     hover:shadow-red-300/40 
     hover:rounded-full
-    hover:mt-11
+    hover:mb-16
   
 }
