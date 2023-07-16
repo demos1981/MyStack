@@ -16,10 +16,14 @@ module.exports = {
       DEFAULT:'4px',
       'md':'0.37rem',
       'lg':'0.45rem',
-      'full':'5rem',
+      'full':'6rem',
       'large':'12px',
     },
-    extend: {},
+    extend: {
+      fontFamily:{
+        'author': ['Lumanosimo'],
+    },
+  },
   },
   plugins: [],
 }

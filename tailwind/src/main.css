@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,7 +9,17 @@
 
 
 .header-items{
-    @apply flex ml-2 py-3 px-2 text-red-50 font-semibold border-b-2 border-transparent  hover:text-red-300 hover:border-red-300 ;
+    @apply
+    flex
+    ml-2 
+    py-3 
+    px-2  
+    font-semibold 
+    text-red-50 
+    border-b-2
+    border-transparent  
+    hover:text-red-300 
+    hover:border-red-300 ;
 }
 
 .section-skills{
@@ -16,7 +30,8 @@
     w-44
     mr-5
     p-10
-    text-xl 
+    text-lg 
+    font-semibold
     border-2 
     justify-center
     items-center
