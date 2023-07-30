@@ -25,7 +25,10 @@
 .section-skills{
     @apply 
     flex 
+    flex-col
+    box-border
     text-center 
+    text-red-950
     h-44
     w-44
     mr-5
@@ -36,7 +39,7 @@
     justify-center
     items-center
     bg-red-300
-    text-red-50
+    hover:text-red-50
     rounded-large
     hover:items-center
     transition-all
@@ -46,6 +49,16 @@
     shadow-2xl 
     hover:shadow-red-300/40 
     hover:rounded-full
-    hover:mb-16
+    hover:mb-3
+    z-50
   
+}
+
+.progress{
+    @apply
+    text-red-950
+    hover:text-red-50
+    transition-all
+    duration-1000 
+    delay-100 
 }
